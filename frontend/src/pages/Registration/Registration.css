@@ -1,0 +1,162 @@
+.registration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  background-color: #f9f9f9;
+}
+
+.registration-box {
+  display: flex;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 70%; 
+  height: 90%; 
+  overflow: hidden;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.welcome-section {
+  padding: 40px;
+  background-color: #f9f9f9;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.welcome-section-2 {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.welcome-section img {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.welcome-section p {
+  font-size: 18px;
+  color: #666;
+}
+
+.welcome-section a {
+  color: #ff5722;
+  text-decoration: none;
+}
+
+.registration-form {
+  padding: 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.role-selection {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.role-selection label {
+  font-size: 15px;
+  color: #666;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+form label {
+  font-size: 15px; 
+  color: #666;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+/* Adjust the password input width and the icon button */
+.password-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.password-container input {
+  width: 100%; /* Decrease width of the input */
+  padding: 10px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #ff5722;
+  font-size: 18px;
+}
+
+
+form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form input:focus {
+  border-color: #ff5722; 
+  outline: none;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.terms-check {
+  margin-top: 20px;
+  margin-right: 7px;
+  color: #ff5722;
+}
+
+.terms a {
+  color: #ff5722;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.sign-up-button {
+  padding: 10px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sign-up-button:disabled {
+  background-color: #ccc; 
+  color: #666;
+  cursor: not-allowed;
+}
+
+.go-back {
+  color: #999;
+  text-decoration: none;
+  font-size: 12px;
+  margin-top: 20px;
+  align-self: center;
+}

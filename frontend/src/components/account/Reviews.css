@@ -1,0 +1,20 @@
+.reviews {
+    padding: 20px;
+}
+
+.reviews-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.reviews-table th, .reviews-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.reviews-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}

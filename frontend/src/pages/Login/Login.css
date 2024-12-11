@@ -1,0 +1,117 @@
+
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .login-box {
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 70%; 
+    height: 90%; 
+    overflow: hidden;
+  }
+  
+  .welcome-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .welcome-section h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .welcome-section img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-section p {
+    font-size: 20px;
+    color: #666;
+  }
+  
+  .welcome-section a {
+    color: #ff5722;
+    text-decoration: none;
+  }
+  
+  .login-form {
+    padding: 40px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  form input:focus {
+    border-color: #ff5722; 
+    outline: none; 
+  }
+  
+  .forgot-password {
+    color: #ff5722;
+    text-decoration: none;
+    font-size: 15px;
+    align-self: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .sign-in-button {
+    padding: 15px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .go-back {
+    color: #999;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 20px;
+    align-self: center;
+  }
+  
+
+  .sign-in-button:focus{
+
+    outline: none;
+  }

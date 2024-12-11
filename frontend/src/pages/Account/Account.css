@@ -1,0 +1,125 @@
+.account-page {
+    padding: 20px;
+    background-color: #f7f7f7;
+    margin-top: 75px;
+    padding: 20px 50px 0px 50px;
+}
+
+.account-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.account-header h3 {
+    padding: 20px;
+}
+
+.profile-pic-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+.account-nav {
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.account-nav button {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    border-radius: 20px;
+    color: #5c5c5c;
+    font-weight: 500;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.account-nav button.active, .account-nav button:hover {
+    background-color: #fff;
+    border-color: #ff6b00;
+    color: #ff6b00;
+}
+
+.account-nav button .icon {
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.account-nav button.active .icon, .account-nav button:hover .icon {
+    color: #ff6b00;
+}
+
+.account-content {
+    background-color: white;
+    padding: 20px;
+}
+
+.account-nav a {
+    text-decoration: none;
+}
+
+.account-nav button:focus {
+    outline: none;
+}
+
+.profile-pic-container {
+    position: relative;
+}
+
+.edit-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.image-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.preview-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.image-preview button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #ff6b00;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.image-preview button:hover {
+    background-color: #e55d00;
+}

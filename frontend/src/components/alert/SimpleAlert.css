@@ -1,0 +1,17 @@
+/* Ensure the alert container is fixed and on top */
+.alert-container {
+    position: fixed; /* Fixed positioning relative to the viewport */
+    top: 20px; /* Position from the top of the viewport */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center alignment */
+    z-index: 100000; /* Ensure it's above other content */
+    width: auto; /* Adjust as needed */
+    max-width: 600px; /* Max width for larger screens */
+    padding: 10px; /* Add padding */
+    box-sizing: border-box; /* Ensure padding does not affect width */
+}
+
+/* Ensure alert does not affect layout */
+.alert-container .MuiAlert-root {
+    margin: 0; /* Remove default margins */
+}

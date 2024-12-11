@@ -1,0 +1,51 @@
+/* .tour-place {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  flex-shrink: 0;
+  position: relative;
+  margin-bottom: 20px;
+  scroll-snap-align: start;
+}
+
+.tour-place img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; 
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.tour-place-info {
+  padding: 15px;
+}
+.tour-place-info h4 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  text-align: left; 
+  white-space: nowrap; 
+  overflow: hidden; 
+
+}
+
+
+.tour-place-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #666;
+}
+
+.tour-place-favorite {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.tour-place-favorite button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+} */

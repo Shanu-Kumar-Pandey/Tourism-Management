@@ -1,0 +1,105 @@
+.sidebar {
+  width: 18%;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-right: 1px solid #ddd;
+  margin-top: 13px;
+  position: fixed;
+  top: 60px; 
+  left: 0;
+  height: 80%;
+  overflow-y: auto;
+}
+
+.sidebar h3 {
+  color: #ff6b00;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+
+.filter-section {
+  margin-bottom: 10px; 
+}
+
+.filter-section h4 {
+  margin-bottom: 8px; 
+  margin-top: 0px;
+}
+
+.filter-select, 
+.filter-section input[type="date"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 8px; 
+}
+
+
+.filter-section input[type="number"] {
+  width: 55px;
+  padding: 5px; 
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.days-nights-input {
+  display: flex;
+  align-items: center;
+ 
+  margin-bottom: 8px; 
+}
+
+
+.price-slider {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+.filter-section input[type="date"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 5px; 
+}
+
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.slider-container label {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+
+.days-nights-input label{
+
+  padding: 5px;
+  align-items: center;
+
+
+}
+
+.apply-button-,
+.clear-button- {
+  margin-top: 15px;
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.apply-button-:hover,
+.clear-button-:hover {
+  background-color: #ff8c42;
+}

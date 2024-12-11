@@ -1,0 +1,100 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-links li a:hover {
+  color: #ff5722;
+}
+
+.auth-links {
+  display: flex;
+  margin-right: 70px;
+}
+
+.auth-links a {
+  text-decoration: none;
+  color: #ff5722;
+}
+
+.nav-links li .active-link {
+  color: #ff5722;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 10px 0;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 200px;
+  z-index: 1;
+}
+
+.dropdown-menu li a {
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0;
+  color: #ff5722;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown .dropdown-menu.show {
+  display: flex;
+}
+
+.auth-links .logout-button {
+  background: none;
+  border: none;
+  color: #ff5722; /* Default color */
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px 15px; /* Add padding for better appearance */
+  border-radius: 5px; /* Rounded corners */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
+
+.auth-links .logout-button:hover {
+  color: white; /* Font color on hover */
+  background-color: #ff5722; /* Background color on hover */
+}

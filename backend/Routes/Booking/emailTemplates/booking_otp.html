@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #ff6b00;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+        }
+        .otp {
+            background-color: #ff6b00;
+            color: white !important;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+        .footer {
+            background-color: #ff6b00;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        img {
+            width: 100px;
+            height: auto;
+        }
+        .note {
+            color: #999;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Booking Confirmation</h1>
+        </div>
+        <div class="content">
+            <p>Dear {{customerName}},</p>
+            <p>Thank you for booking with us! Please find the details of your booking below:</p>
+            <p><strong>Trip Package:</strong> {{tripPackageName}}</p>
+            <p><strong>Number of Persons:</strong> {{numberOfPersons}}</p>
+            <p><strong>Total Payment:</strong> {{totalPrice}} ₹</p>
+            <p>Your payment has been successfully processed with your card ending with ***{{cardLast4}}.</p>
+            <p>Please use the following OTP to confirm your booking:</p>
+            <div style="text-align: center; margin: 20px 0;">
+                <span class="otp">{{otp}}</span>
+            </div>
+            <p class="note">This OTP is valid for 5 minutes. Please do not share it with anyone.</p>
+            <div style="text-align: center; margin-top: 30px;">
+                <img src="https://static.vecteezy.com/system/resources/previews/006/627/385/non_2x/beach-island-landscape-logo-beach-logo-design-beach-logo-outdoor-summer-travel-sun-stock-free-vector.jpg" alt="Company Logo" />
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 LJICA Project | All rights reserved</p>
+        </div>
+    </div>
+</body>
+</html>

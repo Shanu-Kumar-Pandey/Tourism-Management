@@ -1,0 +1,110 @@
+/* General layout */
+.tours-page {
+    display: flex;
+    margin-top: 60px; /* Assuming your header has a height of 60px */
+  }
+  
+
+  .tours-right-content {
+    margin-left: 20%;
+    width: 80%;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+
+  /* Container for the tours, starting under the search bar */
+  .tours-container {
+    margin-top: 80px; /* Adjust based on search bar height */
+    padding: 20px;
+  }
+  
+  /* Tour cards grid */
+  .tours-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .tour-card-id {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .tour-card-id:hover {
+    transform: translateY(-5px);
+  }
+  
+  .tour-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  .tour-info {
+    padding: 15px;
+    text-align: left;
+  }
+  .tour-info h3 {
+    color: #ff6b00;
+    margin-bottom: 15px; 
+    margin-top: -10px;
+    font-size: 1.2em;
+  }
+  
+  .tour-info p {
+    color: #777;
+    margin-bottom: 10px; 
+  }
+  
+ 
+  .tour-price {
+    color: #333;
+    font-weight: bold;
+    font-size: 1em;
+
+    margin-top: 15px;
+  }
+  
+  .tour-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .view-button,
+  .book-button {
+    background-color: #ff6b00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-button:hover,
+  .book-button:hover {
+    background-color: #ff8c42;
+  }
+  
+  .tour-dates {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .tour-start-end {
+    float: left;
+    color: #777;
+  }
+  
+  .tour-days-nights {
+    float: right;
+    color: #333;
+    font-weight: bold;
+  }
